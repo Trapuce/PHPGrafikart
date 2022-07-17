@@ -116,7 +116,7 @@ function navitem(string $lien , string $titre):string{
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <?=navitem("/index.php",'Home')?>
           <?=navitem("/contact.php",'Contact')?>
-         
+          <?=navitem("/test.php",'Newlester')?>
         </ul>
        
       </div>

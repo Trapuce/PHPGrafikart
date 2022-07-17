@@ -10,7 +10,7 @@ require ("header.php") ?>
     <div class="col-md-4">
         <h2>Horaires d'ouvertures </h2> 
         <ul>
-            <?php foreach (JOURS as $k =>$jour):?>
+            <?php foreach (JOURS as $k =>$jour):?>accueil
                 
             <li><?=$jour?>  <?= $creneaux = creneauHtml(CRENEAUX[$k]) ?></li>
             <?php endforeach ;?>
